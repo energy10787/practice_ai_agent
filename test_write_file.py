@@ -1,4 +1,4 @@
-from functions.write_file import write_file
+from workspace.practice_ai_agent.functions.write_file import write_file
 
 def test() -> None:
     result = write_file("calculator", "lorem.txt", "wait, this isn't lorem ipsum")

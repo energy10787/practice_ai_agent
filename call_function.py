@@ -1,11 +1,11 @@
 import json
 from collections.abc import Callable
 
-from config import WORKING_DIR
-from functions.get_file_content import get_file_content, schema_get_file_content
-from functions.get_files_info import get_files_info, schema_get_files_info
-from functions.run_python_file import run_python_file, schema_run_python_file
-from functions.write_file import schema_write_file, write_file
+from workspace.practice_ai_agent.config import WORKING_DIR
+from workspace.practice_ai_agent.functions.get_file_content import get_file_content, schema_get_file_content
+from workspace.practice_ai_agent.functions.get_files_info import get_files_info, schema_get_files_info
+from workspace.practice_ai_agent.functions.run_python_file import run_python_file, schema_run_python_file
+from workspace.practice_ai_agent.functions.write_file import schema_write_file, write_file
 
 available_functions = [
     schema_get_files_info,

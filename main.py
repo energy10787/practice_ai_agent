@@ -2,12 +2,12 @@ import argparse
 import os
 import sys
 
-from call_function import available_functions, call_function
-from config import MAX_ITERS
+from workspace.practice_ai_agent.call_function import available_functions, call_function
+from workspace.practice_ai_agent.config import MAX_ITERS
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from prompts import system_prompt
+from workspace.practice_ai_agent.prompts import system_prompt
 
 def main():
     print("Hello from practice-ai-agent!")

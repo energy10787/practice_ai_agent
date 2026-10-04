@@ -1,4 +1,4 @@
-from functions.get_files_info import get_files_info
+from workspace.practice_ai_agent.functions.get_files_info import get_files_info
 
 def test_get_files_info() -> None:
     result = get_files_info("calculator", ".")

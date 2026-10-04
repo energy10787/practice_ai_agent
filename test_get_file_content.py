@@ -1,4 +1,4 @@
-from functions.get_file_content import get_file_content
+from workspace.practice_ai_agent.functions.get_file_content import get_file_content
 
 def test_get_file_content() -> None:
 
